@@ -52,7 +52,7 @@ class MusicAdapter : RecyclerView.Adapter<MusicAdapter.Holder>() {
                 mediaPlayer = MediaPlayer.create(itemView.context, musicUri)
                 mediaPlayer?.start()
 
-                //수정
+                //수정해야하는
                 //AudioApplication.mInstance.getServiceInterface()?.setPlayList(getMusicIds())// 재생목록등록
                 //AudioApplication.mInstance.getServiceInterface()?.play(mPosition)// 선택한 오디오재생
                 //AudioServiceInterface(AudioApplication.mInstance.applicationContext).setPlayList(getMusicIds())
